@@ -12,7 +12,7 @@ A professional, job-targeted portfolio website built to demonstrate capabilities
 This portfolio is tailored for the **AI Operations & Automation Manager** role, showcasing:
 
 - Business process understanding and workflow automation
-- A Google Sheets / Apps Script automation prototype with recurring tasks, dashboards, and escalation logic
+- **[Recurring Task Tracking & Escalation Automation Prototype (Google Sheets)](https://docs.google.com/spreadsheets/d/19pAU1zF44LEvvLC6pbtt-1wV5iN-R4H6QSNApjJ4WDw/edit?usp=sharing)** — Recurring task generation, Work Queue, WhatsApp Drive proofs, Manager Dashboard, and Apps Script escalation logic
 - AI-powered product development (Oratii, AIYUG)
 - Structured problem-solving methodology
 

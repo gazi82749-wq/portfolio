@@ -1037,6 +1037,20 @@ img { max-width: 100%; display: block; }
     background: linear-gradient(135deg, rgba(56, 189, 248, 0.05) 0%, transparent 60%);
 }
 
+.case-study__header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.case-study__sheet-btn {
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+}
+
 .case-study__badge {
     display: inline-block;
     padding: 6px 16px;
@@ -1047,7 +1061,7 @@ img { max-width: 100%; display: block; }
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.12em;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .case-study__category {
@@ -1056,7 +1070,7 @@ img { max-width: 100%; display: block; }
     font-weight: 600;
     letter-spacing: 0.15em;
     color: var(--accent);
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .case-study__title {
@@ -1093,7 +1107,56 @@ img { max-width: 100%; display: block; }
     padding: 40px 48px;
     border-top: 1px solid var(--border);
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/* Prototype Direct Callout Banner */
+.prototype-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 18px 24px;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(15, 23, 42, 0.9) 100%);
+    border: 1px solid rgba(52, 211, 153, 0.25);
+    border-radius: var(--radius);
+    margin-bottom: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.prototype-banner__info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    max-width: 680px;
+}
+
+.prototype-banner__icon {
+    font-size: 1.6rem;
+    flex-shrink: 0;
+}
+
+.prototype-banner__title {
+    display: block;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.prototype-banner__desc {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.prototype-banner__btn {
+    white-space: nowrap;
 }
 
 @media (max-width: 768px) {
