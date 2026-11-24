@@ -1,6 +1,7 @@
 # Gazi Abbas — Portfolio
 
-**AI Operations & Automation | Software Developer**
+**AI Operations & Automation | Software Developer**  
+🌐 **Live Website:** [https://gaziabbas.vercel.app/](https://gaziabbas.vercel.app/)
 
 A professional, job-targeted portfolio website built to demonstrate capabilities in AI-powered business automation, workflow design, and practical software development.
 
