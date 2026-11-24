@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazi Abbas | AI Operations & Automation | Software Developer</title>
+    <meta name="description" content="Portfolio of Gazi Abbas, a Software Development graduate focused on AI-powered workflows, Google Apps Script automation, business process design and practical software solutions.">
+    <meta property="og:title" content="Gazi Abbas | AI Operations & Automation | Software Developer">
+    <meta property="og:description" content="Portfolio of Gazi Abbas, a Software Development graduate focused on AI-powered workflows, Google Apps Script automation, business process design and practical software solutions.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Gazi Abbas | AI Operations & Automation | Software Developer">
+    <meta name="twitter:description" content="Portfolio of Gazi Abbas, a Software Development graduate focused on AI-powered workflows, Google Apps Script automation, business process design and practical software solutions.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav__container">
+            <a href="#home" class="nav__brand" aria-label="Gazi Abbas - Home">GAZI ABBAS</a>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+            </button>
+            <div class="nav__menu" id="navMenu" role="menubar">
+                <a href="#home" class="nav__link active" role="menuitem">Home</a>
+                <a href="#about" class="nav__link" role="menuitem">About</a>
+                <a href="#automation" class="nav__link" role="menuitem">Automation</a>
+                <a href="#projects" class="nav__link" role="menuitem">Projects</a>
+                <a href="#skills" class="nav__link" role="menuitem">Skills</a>
+                <a href="#contact" class="nav__link" role="menuitem">Contact</a>
+                <div class="nav__social">
+                    <a href="https://github.com/gazi82749-wq" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="nav__social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gazi-abbas-3b611a324/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="nav__social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://x.com/GaziAbbas217059" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile" class="nav__social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <!-- Ambient Background Lights & Grid -->
+        <div class="hero__grid-bg" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+
+        <div class="hero__container">
+            <div class="hero__content">
+                <!-- Status Pill -->
+                <div class="hero__status-pill">
+                    <span class="hero__status-pulse">
+                        <span class="hero__status-ring"></span>
+                        <span class="hero__status-dot"></span>
+                    </span>
+                    <span class="hero__status-text">Open to full-time opportunities and collaborations.</span>
+                </div>
+
+                <div class="hero__badge">
+                    <span class="hero__badge-dot"></span>
+                    <span class="hero__label">AI OPERATIONS &nbsp;|&nbsp; AUTOMATION &nbsp;|&nbsp; SOFTWARE DEVELOPMENT</span>
+                </div>
+
+                <h1 class="hero__title">
+                    Turning manual processes into <span class="hero__title-gradient">intelligent workflows.</span>
+                </h1>
+
+                <p class="hero__subtitle">
+                    I'm <strong>Gazi Abbas</strong>, a Software Development graduate interested in AI-powered automation, structured workflows, and building systems that make everyday operations more reliable and efficient.
+                </p>
+
+                <div class="hero__tags">
+                    <span class="hero__tag">
+                        <svg class="hero__tag-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        AI Operations &amp; Automation
+                    </span>
+                    <span class="hero__tag">
+                        <svg class="hero__tag-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                        Workflow Design
+                    </span>
+                    <span class="hero__tag">
+                        <svg class="hero__tag-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        Software Development
+                    </span>
+                </div>
+
+                <div class="hero__actions">
+                    <a href="#automation" class="btn btn--primary btn--hero">
+                        <span>Explore My Automation Work</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="#projects" class="btn btn--secondary btn--hero">
+                        <span>View My Projects</span>
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                </div>
+
+                <!-- Quick Operational Competencies Bar -->
+                <div class="hero__competencies">
+                    <div class="hero__comp-item">
+                        <span class="hero__comp-icon">✓</span>
+                        <span>Zero-Data-Loss Logic</span>
+                    </div>
+                    <div class="hero__comp-item">
+                        <span class="hero__comp-icon">✓</span>
+                        <span>Automated SLA Escalation</span>
+                    </div>
+                    <div class="hero__comp-item">
+                        <span class="hero__comp-icon">✓</span>
+                        <span>Apps Script &amp; AI Integration</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Visual: Automation Pipeline Console -->
+            <div class="hero__visual" aria-label="Interactive Automation Architecture Console">
+                <div class="pipeline-card">
+                    <!-- Console Top Bar -->
+                    <div class="pipeline-card__header">
+                        <div class="pipeline-card__dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="pipeline-card__title">
+                            <span class="pipeline-card__badge-live">SYSTEM ARCHITECTURE</span>
+                            <span>automation_workflow.gs</span>
+                        </div>
+                        <div class="pipeline-card__status">
+                            <span class="pipeline-pulse-dot"></span>
+                            <span>ACTIVE</span>
+                        </div>
+                    </div>
+
+                    <!-- Pipeline Flow Nodes -->
+                    <div class="pipeline-card__body">
+                        <div class="pipeline-flow">
+                            <!-- Node 1: Manual Input -->
+                            <div class="pipeline-node" data-step="1">
+                                <div class="pipeline-node__badge">01</div>
+                                <div class="pipeline-node__icon">📥</div>
+                                <div class="pipeline-node__info">
+                                    <span class="pipeline-node__title">Manual Input</span>
+                                    <span class="pipeline-node__sub">Task Master &amp; Work Queue</span>
+                                </div>
+                                <span class="pipeline-node__indicator"></span>
+                            </div>
+
+                            <div class="pipeline-connector">
+                                <div class="pipeline-connector__line"><span class="pipeline-connector__particle"></span></div>
+                            </div>
+
+                            <!-- Node 2: Processing -->
+                            <div class="pipeline-node" data-step="2">
+                                <div class="pipeline-node__badge">02</div>
+                                <div class="pipeline-node__icon">⚙️</div>
+                                <div class="pipeline-node__info">
+                                    <span class="pipeline-node__title">Processing</span>
+                                    <span class="pipeline-node__sub">Cycles &amp; LockService</span>
+                                </div>
+                                <span class="pipeline-node__indicator"></span>
+                            </div>
+
+                            <div class="pipeline-connector">
+                                <div class="pipeline-connector__line"><span class="pipeline-connector__particle"></span></div>
+                            </div>
+
+                            <!-- Node 3: Validation -->
+                            <div class="pipeline-node" data-step="3">
+                                <div class="pipeline-node__badge">03</div>
+                                <div class="pipeline-node__icon">✅</div>
+                                <div class="pipeline-node__info">
+                                    <span class="pipeline-node__title">Validation</span>
+                                    <span class="pipeline-node__sub">Proof Link &amp; Duplicate Check</span>
+                                </div>
+                                <span class="pipeline-node__indicator"></span>
+                            </div>
+
+                            <div class="pipeline-connector">
+                                <div class="pipeline-connector__line"><span class="pipeline-connector__particle"></span></div>
+                            </div>
+
+                            <!-- Node 4: Automation -->
+                            <div class="pipeline-node active-node" data-step="4">
+                                <div class="pipeline-node__badge">04</div>
+                                <div class="pipeline-node__icon">🤖</div>
+                                <div class="pipeline-node__info">
+                                    <span class="pipeline-node__title">Automation</span>
+                                    <span class="pipeline-node__sub">Apps Script &amp; Auto-Cycle</span>
+                                </div>
+                                <span class="pipeline-node__indicator"></span>
+                            </div>
+
+                            <div class="pipeline-connector">
+                                <div class="pipeline-connector__line"><span class="pipeline-connector__particle"></span></div>
+                            </div>
+
+                            <!-- Node 5: Report / Action -->
+                            <div class="pipeline-node" data-step="5">
+                                <div class="pipeline-node__badge">05</div>
+                                <div class="pipeline-node__icon">📊</div>
+                                <div class="pipeline-node__info">
+                                    <span class="pipeline-node__title">Report / Action</span>
+                                    <span class="pipeline-node__sub">Dashboard &amp; Audit Trail</span>
+                                </div>
+                                <span class="pipeline-node__indicator"></span>
+                            </div>
+
+                            <div class="pipeline-connector">
+                                <div class="pipeline-connector__line"><span class="pipeline-connector__particle"></span></div>
+                            </div>
+
+                            <!-- Node 6: Exception Escalation -->
+                            <div class="pipeline-node pipeline-node--escalate" data-step="6">
+                                <div class="pipeline-node__badge">06</div>
+                                <div class="pipeline-node__icon">🚨</div>
+                                <div class="pipeline-node__info">
+                                    <span class="pipeline-node__title">Exception Escalation</span>
+                                    <span class="pipeline-node__sub">15m Grace · Manager Alert</span>
+                                </div>
+                                <span class="pipeline-node__indicator"></span>
+                            </div>
+                        </div>
+
+                        <!-- Live Pipeline Console Feed -->
+                        <div class="pipeline-feed">
+                            <div class="pipeline-feed__header">
+                                <span class="pipeline-feed__label">PIPELINE EXECUTION TELEMETRY</span>
+                                <span class="pipeline-feed__indicator">● LIVE MONITOR</span>
+                            </div>
+                            <div class="pipeline-feed__content" id="heroFeedLine">
+                                <span class="feed-ts">[14:25:01]</span>
+                                <span class="feed-tag">TRIGGER</span>
+                                <span class="feed-text">Daily task batch generated · Deduplication verified</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Micro-Cards -->
+                    <div class="pipeline-floater pipeline-floater--sla" aria-hidden="true">
+                        <div class="floater-icon">⏱️</div>
+                        <div class="floater-text">
+                            <strong>15-Min SLA Grace</strong>
+                            <span>Leadership Escalation Rule</span>
+                        </div>
+                    </div>
+
+                    <div class="pipeline-floater pipeline-floater--audit" aria-hidden="true">
+                        <div class="floater-icon">🛡️</div>
+                        <div class="floater-text">
+                            <strong>Audit Protected</strong>
+                            <span>LockService &amp; State Reserve</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <span class="section__label">ABOUT</span>
+            <h2 class="section__title">Technology is useful when it solves real operational problems.</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>I am a Software Development graduate with an interest in Artificial Intelligence, business automation and practical software engineering.</p>
+                    <p>I enjoy understanding processes before automating them.</p>
+                    <p>My approach starts with identifying the input, understanding the steps involved, defining decision rules, validating outputs, and planning how exceptions should be handled.</p>
+                    <p>Through my projects, I have explored AI-powered applications, web technologies, spreadsheet automation, task tracking and escalation workflows.</p>
+                </div>
+                <div class="about__cards">
+                    <div class="about-card">
+                        <span class="about-card__number">01</span>
+                        <h3 class="about-card__title">Understand</h3>
+                        <p class="about-card__desc">Map a manual process and identify repetitive work.</p>
+                    </div>
+                    <div class="about-card">
+                        <span class="about-card__number">02</span>
+                        <h3 class="about-card__title">Automate</h3>
+                        <p class="about-card__desc">Build structured workflows using AI tools, scripts and data.</p>
+                    </div>
+                    <div class="about-card">
+                        <span class="about-card__number">03</span>
+                        <h3 class="about-card__title">Validate</h3>
+                        <p class="about-card__desc">Test outputs, identify exceptions and maintain accountability.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about__education">
+                <span class="about__edu-icon">🎓</span>
+                <div>
+                    <strong>B.Voc. in Software Development</strong>
+                    <span class="text-muted">&nbsp;&mdash;&nbsp;Graduated June 2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURED AUTOMATION CASE STUDY ========== -->
+    <section class="automation section" id="automation">
+        <div class="container">
+            <span class="section__label">FEATURED PROJECT</span>
+            <div class="case-study">
+                <div class="case-study__header">
+                    <span class="case-study__badge">ASSIGNMENT PROTOTYPE &nbsp;|&nbsp; WORKFLOW AUTOMATION</span>
+                    <span class="case-study__category">BUSINESS PROCESS AUTOMATION</span>
+                    <h2 class="case-study__title">Recurring Task Tracking &amp; Escalation Automation</h2>
+                    <p class="case-study__context">Assignment prototype developed for the AI Operations / Founder's Office assignment at Allo Innoware.</p>
+                </div>
+
+                <!-- Business Problem -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">The Business Problem</h3>
+                    <p>Recurring operational tasks were assigned to multiple employees. Tasks repeated at different intervals — daily, every 7 days, every 15 days, and every 30 days.</p>
+                    <p>Manual task tracking creates risks such as:</p>
+                    <div class="risk-grid">
+                        <div class="risk-item"><span class="risk-icon">⚠️</span> Missed deadlines</div>
+                        <div class="risk-item"><span class="risk-icon">📋</span> Duplicate updates</div>
+                        <div class="risk-item"><span class="risk-icon">📎</span> Incomplete proof submission</div>
+                        <div class="risk-item"><span class="risk-icon">👁️</span> Lack of management visibility</div>
+                        <div class="risk-item"><span class="risk-icon">⏱️</span> Delayed escalation</div>
+                        <div class="risk-item"><span class="risk-icon">🤚</span> Manual follow-up dependency</div>
+                    </div>
+                </div>
+
+                <!-- Solution -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">My Solution</h3>
+                    <p>Designed and implemented a Google Sheets and Google Apps Script-based recurring task management prototype.</p>
+
+                    <!-- System Workflow Diagram -->
+                    <div class="case-study__workflows">
+                        <div class="sys-workflow">
+                            <h4 class="sys-workflow__title">System Workflow</h4>
+                            <div class="sys-workflow__flow">
+                                <div class="sys-flow-node">Task Master</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Recurring Task Generation</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Employee Work Queue</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Employee Submits Proof</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Completion Checkbox</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Automatic Completion Logging</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node highlight">Next Cycle Generation</div>
+                            </div>
+                        </div>
+                        <div class="sys-workflow">
+                            <h4 class="sys-workflow__title">Escalation Workflow</h4>
+                            <div class="sys-workflow__flow">
+                                <div class="sys-flow-node warn">Deadline Missed</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Grace Period</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Manager Email Alert</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Manager Acknowledgement</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node">Resolution Check</div>
+                                <div class="sys-flow-arrow">↓</div>
+                                <div class="sys-flow-node warn">Leadership Escalation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Implemented Features -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">Implemented Features</h3>
+                    <div class="features-grid">
+                        <div class="feature-item"><span class="feature-num">01</span> Recurring task generation</div>
+                        <div class="feature-item"><span class="feature-num">02</span> Daily and interval-based task cycles</div>
+                        <div class="feature-item"><span class="feature-num">03</span> Employee task queue</div>
+                        <div class="feature-item"><span class="feature-num">04</span> Ticket ID submission</div>
+                        <div class="feature-item"><span class="feature-num">05</span> Daily WhatsApp proof-link submission</div>
+                        <div class="feature-item"><span class="feature-num">06</span> Completion tracking</div>
+                        <div class="feature-item"><span class="feature-num">07</span> Completed By identity</div>
+                        <div class="feature-item"><span class="feature-num">08</span> Completion timestamp</div>
+                        <div class="feature-item"><span class="feature-num">09</span> Automatic next-cycle creation</div>
+                        <div class="feature-item"><span class="feature-num">10</span> Manager dashboard</div>
+                        <div class="feature-item"><span class="feature-num">11</span> Manager acknowledgement checkbox</div>
+                        <div class="feature-item"><span class="feature-num">12</span> Same-day overdue notifications</div>
+                        <div class="feature-item"><span class="feature-num">13</span> Leadership escalation</div>
+                        <div class="feature-item"><span class="feature-num">14</span> Notification log</div>
+                        <div class="feature-item"><span class="feature-num">15</span> Audit log</div>
+                        <div class="feature-item"><span class="feature-num">16</span> Configurable SLA settings</div>
+                        <div class="feature-item"><span class="feature-num">17</span> Sequential duplicate-alert prevention</div>
+                        <div class="feature-item"><span class="feature-num">18</span> Script locking &amp; notification reservation</div>
+                    </div>
+                </div>
+
+                <!-- Employee Experience -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">Practical Employee Experience</h3>
+                    <div class="exp-grid">
+                        <div class="exp-card">
+                            <h4>Portal Tasks</h4>
+                            <ol>
+                                <li>Employee enters the Ticket ID in the Work Queue.</li>
+                                <li>Adds completion notes.</li>
+                                <li>Ticks <strong>Mark Complete</strong>.</li>
+                                <li>The script records completion.</li>
+                            </ol>
+                        </div>
+                        <div class="exp-card">
+                            <h4>Daily WhatsApp Tasks</h4>
+                            <ol>
+                                <li>Employee shares an operational update in the WhatsApp group.</li>
+                                <li>Captures screenshot proof.</li>
+                                <li>Uploads proof to Google Drive.</li>
+                                <li>Pastes the Drive link into the Work Queue.</li>
+                                <li>Adds completion notes.</li>
+                                <li>Ticks <strong>Mark Complete</strong>.</li>
+                            </ol>
+                            <p class="exp-note">The system records the completion and evidence link. It does not automatically read or verify WhatsApp messages.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manager Experience -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">Manager Experience</h3>
+                    <p>Manager Dashboard displays:</p>
+
+                    <!-- CSS Dashboard Mockup -->
+                    <div class="dashboard-mockup">
+                        <div class="dashboard-mockup__header">
+                            <span class="dashboard-mockup__title">Manager Dashboard</span>
+                            <span class="dashboard-mockup__badge">PROTOTYPE</span>
+                        </div>
+                        <div class="dashboard-mockup__metrics">
+                            <div class="metric-card">
+                                <span class="metric-card__value">24</span>
+                                <span class="metric-card__label">Total Tasks</span>
+                            </div>
+                            <div class="metric-card metric-card--pending">
+                                <span class="metric-card__value">8</span>
+                                <span class="metric-card__label">Pending</span>
+                            </div>
+                            <div class="metric-card metric-card--completed">
+                                <span class="metric-card__value">14</span>
+                                <span class="metric-card__label">Completed</span>
+                            </div>
+                            <div class="metric-card metric-card--overdue">
+                                <span class="metric-card__value">2</span>
+                                <span class="metric-card__label">Overdue</span>
+                            </div>
+                        </div>
+                        <div class="dashboard-mockup__table">
+                            <div class="mock-table">
+                                <div class="mock-table__head">
+                                    <span>Employee</span>
+                                    <span>Task</span>
+                                    <span>Status</span>
+                                    <span>Last Completed</span>
+                                    <span>Acknowledged</span>
+                                </div>
+                                <div class="mock-table__row">
+                                    <span>Employee A</span>
+                                    <span>Portal ticket check</span>
+                                    <span class="status-chip status-chip--completed">Completed</span>
+                                    <span>24 Nov 2026</span>
+                                    <span class="check-icon">☑</span>
+                                </div>
+                                <div class="mock-table__row">
+                                    <span>Employee B</span>
+                                    <span>WhatsApp daily update</span>
+                                    <span class="status-chip status-chip--pending">Pending</span>
+                                    <span>23 Nov 2026</span>
+                                    <span class="check-icon dim">☐</span>
+                                </div>
+                                <div class="mock-table__row">
+                                    <span>Employee C</span>
+                                    <span>Weekly report submission</span>
+                                    <span class="status-chip status-chip--overdue">Overdue</span>
+                                    <span>17 Nov 2026</span>
+                                    <span class="check-icon dim">☐</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Notification Log Mockup -->
+                        <div class="dashboard-mockup__log">
+                            <h5 class="log-title">Notification Log</h5>
+                            <div class="log-entry"><span class="log-time">10:00 AM</span> Manager alert sent for Employee C — Weekly report overdue</div>
+                            <div class="log-entry"><span class="log-time">10:15 AM</span> Leadership escalation — Manager acknowledgement missing for Employee C</div>
+                            <div class="log-entry log-entry--success"><span class="log-time">09:45 AM</span> Completion recorded — Employee A — Portal ticket check</div>
+                        </div>
+
+                        <!-- Audit Log Mockup -->
+                        <div class="dashboard-mockup__log">
+                            <h5 class="log-title">Audit Log</h5>
+                            <div class="log-entry"><span class="log-time">09:45:12</span> COMPLETION | Employee A | Task: Portal ticket check | Ticket: TK-4521</div>
+                            <div class="log-entry"><span class="log-time">10:00:03</span> NOTIFICATION | Manager alert | Employee C overdue | Email sent</div>
+                            <div class="log-entry"><span class="log-time">10:15:01</span> ESCALATION | Leadership | Manager ack missing for Employee C</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Escalation SLA -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">Escalation SLA (Prototype Settings)</h3>
+                    <div class="sla-grid">
+                        <div class="sla-item">
+                            <span class="sla-item__label">Manager Alert</span>
+                            <span class="sla-item__value">15-minute grace period after task deadline</span>
+                        </div>
+                        <div class="sla-item">
+                            <span class="sla-item__label">Manager Acknowledgement Deadline</span>
+                            <span class="sla-item__value">10:00 AM next working day</span>
+                        </div>
+                        <div class="sla-item">
+                            <span class="sla-item__label">Leadership Escalation (Missing Ack)</span>
+                            <span class="sla-item__value">10:00 AM next working day</span>
+                        </div>
+                        <div class="sla-item">
+                            <span class="sla-item__label">Leadership Escalation (Unresolved)</span>
+                            <span class="sla-item__value">10:15 AM next working day</span>
+                        </div>
+                    </div>
+                    <p class="sla-note">Working days and timings are configurable in the Settings sheet.</p>
+                </div>
+
+                <!-- Testing -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">Prototype Testing</h3>
+                    <div class="test-grid">
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Recurring cycle generation</div>
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Single-point completion</div>
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Daily task proof workflow</div>
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Same-day manager alert</div>
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Manager acknowledgement</div>
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Leadership escalation</div>
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Escalation timing</div>
+                        <div class="test-item test-item--pass"><span class="test-icon">✓</span> Duplicate prevention</div>
+                    </div>
+                    <div class="test-notes">
+                        <p><strong>Testing notes:</strong></p>
+                        <ul>
+                            <li>Tests were performed as simulations in a prototype environment.</li>
+                            <li>Email tests used TEST_MODE with a personal test recipient.</li>
+                            <li>Sequential duplicate checks were tested successfully.</li>
+                            <li>Concurrent delivery has not been fully stress-tested.</li>
+                            <li>Exactly-once email delivery is not claimed.</li>
+                            <li>This is not a live company deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Technologies -->
+                <div class="case-study__section">
+                    <h3 class="case-study__heading">Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Google Sheets</span>
+                        <span class="tech-tag">Google Apps Script</span>
+                        <span class="tech-tag">MailApp</span>
+                        <span class="tech-tag">LockService</span>
+                        <span class="tech-tag">Spreadsheet Formulas</span>
+                        <span class="tech-tag">ChatGPT-Assisted Development</span>
+                    </div>
+                </div>
+
+                <!-- View Implementation -->
+                <div class="case-study__footer">
+                    <a href="https://github.com/gazi82749-wq" target="_blank" rel="noopener noreferrer" class="btn btn--primary">View My GitHub Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ADDITIONAL PROJECTS ========== -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <span class="section__label">PROJECTS</span>
+            <h2 class="section__title">Building practical software and AI solutions.</h2>
+
+            <div class="projects__grid">
+                <!-- Oratii -->
+                <div class="project-card project-card--featured">
+                    <div class="project-card__header">
+                        <span class="project-card__badge project-card__badge--live">LIVE PRODUCT</span>
+                        <span class="project-card__category">AI PRODUCT DEVELOPMENT</span>
+                    </div>
+                    <div class="project-card__preview">
+                        <div class="app-mockup app-mockup--oratii">
+                            <div class="app-mockup__topbar">
+                                <div class="app-mockup__dots"><span></span><span></span><span></span></div>
+                                <span class="app-mockup__url">oratii.in</span>
+                            </div>
+                            <div class="app-mockup__content">
+                                <div class="app-mockup__title-bar">Oratii — Communication Coach</div>
+                                <div class="app-mockup__features">
+                                    <div class="app-feat">🎙️ Speech Coach</div>
+                                    <div class="app-feat">📊 PPT Coach</div>
+                                    <div class="app-feat">🎓 Viva Simulator</div>
+                                    <div class="app-feat">🤖 AI Analysis</div>
+                                </div>
+                                <div class="app-mockup__wave">
+                                    <div class="wave-bar" style="height:30%"></div>
+                                    <div class="wave-bar" style="height:60%"></div>
+                                    <div class="wave-bar" style="height:90%"></div>
+                                    <div class="wave-bar" style="height:45%"></div>
+                                    <div class="wave-bar" style="height:75%"></div>
+                                    <div class="wave-bar" style="height:50%"></div>
+                                    <div class="wave-bar" style="height:85%"></div>
+                                    <div class="wave-bar" style="height:35%"></div>
+                                    <div class="wave-bar" style="height:65%"></div>
+                                    <div class="wave-bar" style="height:40%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="project-card__title">Oratii</h3>
+                    <p class="project-card__desc">An AI-powered communication and presentation coaching platform designed to help people improve how they speak, present and express their ideas.</p>
+                    <div class="project-card__features">
+                        <span>PPT Coach</span>
+                        <span>Speech Coach</span>
+                        <span>Viva Simulator</span>
+                        <span>AI-Powered Analysis</span>
+                        <span>Presentation Practice</span>
+                        <span>Personalized Feedback</span>
+                    </div>
+                    <div class="project-card__demonstrates">
+                        <h4>What this demonstrates:</h4>
+                        <ul>
+                            <li>Building an AI-powered web application</li>
+                            <li>Integrating AI APIs</li>
+                            <li>Frontend development</li>
+                            <li>Backend and database integration</li>
+                            <li>Product-oriented thinking</li>
+                        </ul>
+                    </div>
+                    <div class="project-card__tech">
+                        <span>Next.js</span>
+                        <span>React</span>
+                        <span>Tailwind CSS</span>
+                        <span>Supabase</span>
+                        <span>Google Gemini API</span>
+                        <span>Deepgram</span>
+                    </div>
+                    <div class="project-card__actions">
+                        <a href="https://oratii.in" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm">Visit Oratii</a>
+                    </div>
+                </div>
+
+                <!-- AIYUG -->
+                <div class="project-card">
+                    <div class="project-card__header">
+                        <span class="project-card__badge">AI WEB PLATFORM</span>
+                        <span class="project-card__category">AI DISCOVERY PLATFORM</span>
+                    </div>
+                    <div class="project-card__preview">
+                        <div class="app-mockup app-mockup--aiyug">
+                            <div class="app-mockup__topbar">
+                                <div class="app-mockup__dots"><span></span><span></span><span></span></div>
+                                <span class="app-mockup__url">AIYUG</span>
+                            </div>
+                            <div class="app-mockup__content">
+                                <div class="app-mockup__title-bar">AIYUG — AI Tools Discovery</div>
+                                <div class="app-mockup__grid-preview">
+                                    <div class="grid-card-mock">🔍 Discover</div>
+                                    <div class="grid-card-mock">📚 Learn</div>
+                                    <div class="grid-card-mock">🤖 AI Assistant</div>
+                                    <div class="grid-card-mock">📤 Submit</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="project-card__title">AIYUG</h3>
+                    <p class="project-card__desc">An AI tools discovery and learning platform concept designed to help users discover useful AI tools, explore resources and interact with an AI assistant.</p>
+                    <div class="project-card__features">
+                        <span>AI Tools Directory</span>
+                        <span>Tool Discovery</span>
+                        <span>Learning Resources</span>
+                        <span>Tool Submission Concept</span>
+                        <span>AI Assistant Concept</span>
+                        <span>English &amp; Hindi Experience</span>
+                    </div>
+                    <div class="project-card__tech">
+                        <span>Next.js</span>
+                        <span>React</span>
+                        <span>Tailwind CSS</span>
+                        <span>Supabase</span>
+                        <span>Google Gemini API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== HOW I APPROACH AUTOMATION ========== -->
+    <section class="methodology section" id="methodology">
+        <div class="container">
+            <span class="section__label">METHODOLOGY</span>
+            <h2 class="section__title">Automation starts with understanding the process.</h2>
+            <div class="methodology__steps">
+                <div class="method-step">
+                    <span class="method-step__num">01</span>
+                    <h3 class="method-step__title">Understand</h3>
+                    <p class="method-step__desc">Understand the existing manual workflow and the people involved.</p>
+                </div>
+                <div class="method-step">
+                    <span class="method-step__num">02</span>
+                    <h3 class="method-step__title">Map</h3>
+                    <p class="method-step__desc">Document: Input → Process → Decision → Output → Exception → Escalation.</p>
+                </div>
+                <div class="method-step">
+                    <span class="method-step__num">03</span>
+                    <h3 class="method-step__title">Identify</h3>
+                    <p class="method-step__desc">Find repetitive work, bottlenecks and opportunities for automation.</p>
+                </div>
+                <div class="method-step">
+                    <span class="method-step__num">04</span>
+                    <h3 class="method-step__title">Design</h3>
+                    <p class="method-step__desc">Define triggers, data sources, rules, write permissions and approval requirements.</p>
+                </div>
+                <div class="method-step">
+                    <span class="method-step__num">05</span>
+                    <h3 class="method-step__title">Build</h3>
+                    <p class="method-step__desc">Create the workflow using scripts, spreadsheets, AI tools and APIs.</p>
+                </div>
+                <div class="method-step">
+                    <span class="method-step__num">06</span>
+                    <h3 class="method-step__title">Test</h3>
+                    <p class="method-step__desc">Test normal cases, missing data, incorrect data, duplicates and failures.</p>
+                </div>
+                <div class="method-step">
+                    <span class="method-step__num">07</span>
+                    <h3 class="method-step__title">Monitor</h3>
+                    <p class="method-step__desc">Track execution, logs, exceptions and failures.</p>
+                </div>
+                <div class="method-step">
+                    <span class="method-step__num">08</span>
+                    <h3 class="method-step__title">Improve</h3>
+                    <p class="method-step__desc">Refine the process and reduce unnecessary manual intervention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RELIABILITY AND SAFETY PRINCIPLES ========== -->
+    <section class="reliability section">
+        <div class="container">
+            <span class="section__label">PRINCIPLES</span>
+            <h2 class="section__title">Automation should be reliable, not just fast.</h2>
+            <div class="reliability__content">
+                <div class="reliability__list">
+                    <div class="principle-item"><span class="principle-icon">✓</span> Validate before modifying data.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Avoid duplicate operations.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Maintain execution logs.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Protect important business records.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Identify missing and incorrect inputs.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Escalate exceptions to a human.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Require approval for sensitive actions.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Test failure scenarios.</div>
+                    <div class="principle-item"><span class="principle-icon">✓</span> Monitor automation outcomes.</div>
+                </div>
+                <div class="reliability__visual" aria-hidden="true">
+                    <div class="reliability-flow">
+                        <div class="rel-flow-node">Input Validation</div>
+                        <div class="rel-flow-arrow">↓</div>
+                        <div class="rel-flow-node">Business Rules</div>
+                        <div class="rel-flow-arrow">↓</div>
+                        <div class="rel-flow-node highlight">AI / Automation</div>
+                        <div class="rel-flow-arrow">↓</div>
+                        <div class="rel-flow-node">Output Validation</div>
+                        <div class="rel-flow-arrow">↓</div>
+                        <div class="rel-flow-node">Audit Log</div>
+                        <div class="rel-flow-arrow">↓</div>
+                        <div class="rel-flow-node warn">Human Exception Review</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <span class="section__label">SKILLS</span>
+            <h2 class="section__title">Tools and technologies I work with.</h2>
+            <div class="skills__grid">
+                <div class="skill-group">
+                    <h3 class="skill-group__title">AI &amp; AI-Assisted Development</h3>
+                    <div class="skill-group__items">
+                        <span class="skill-item">ChatGPT</span>
+                        <span class="skill-item">Google Gemini</span>
+                        <span class="skill-item">AI API Integration</span>
+                        <span class="skill-item">AI-Powered App Development</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3 class="skill-group__title">Google Workspace &amp; Automation</h3>
+                    <div class="skill-group__items">
+                        <span class="skill-item">Google Sheets</span>
+                        <span class="skill-item">Google Apps Script</span>
+                        <span class="skill-item">Spreadsheet Formulas</span>
+                        <span class="skill-item">Workflow Design</span>
+                        <span class="skill-item">Email Automation</span>
+                        <span class="skill-item">Audit &amp; Notification Logs</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3 class="skill-group__title">Programming &amp; Web Development</h3>
+                    <div class="skill-group__items">
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Next.js</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3 class="skill-group__title">Backend &amp; Data</h3>
+                    <div class="skill-group__items">
+                        <span class="skill-item">Supabase</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3 class="skill-group__title">Tools</h3>
+                    <div class="skill-group__items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">Google Antigravity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <span class="section__label">CONTACT</span>
+            <h2 class="section__title">Let's make operations work smarter.</h2>
+            <p class="contact__text">I'm interested in opportunities where technology, structured thinking and automation can solve practical business problems.<br>Let's connect and discuss how I can contribute.</p>
+            <div class="contact__links">
+                <a href="https://www.linkedin.com/in/gazi-abbas-3b611a324/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/gazi82749-wq" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://x.com/GaziAbbas217059" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <span>X (Twitter)</span>
+                </a>
+                <a href="https://oratii.in" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                    <span>Oratii</span>
+                </a>
+                <!-- CONTACT CONFIG -->
+                <a href="mailto:gazi82749@gmail.com" class="contact-link" id="emailLink" title="Send email to gazi82749@gmail.com">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    <span>gazi82749@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                <span class="footer__name">GAZI ABBAS</span>
+                <span class="footer__headline">AI Operations &amp; Automation | Software Developer</span>
+                <p class="footer__quote">"Understanding processes. Building systems. Improving operations."</p>
+            </div>
+            <div class="footer__nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#automation">Automation</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/gazi-abbas-3b611a324/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href="https://github.com/gazi82749-wq" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="https://x.com/GaziAbbas217059" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+            </div>
+            <div class="footer__copy">
+                &copy; <span id="currentYear"></span> Gazi Abbas. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
